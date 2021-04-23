@@ -1,0 +1,160 @@
+/* Cancel */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Cannot access the location." = "无法访问位置";
+
+/* No comment provided by engineer. */
+"Configuring" = "配置中";
+
+/* Dismiss a home. */
+"Delete" = "解散";
+
+/* No comment provided by engineer. */
+"Delete Home" = "解散这个家庭";
+
+/* No comment provided by engineer. */
+"Failed to create a home." = "创建家庭失败";
+
+/* Failed to dismiss a home. */
+"Failed to delete the home." = "解散家庭失败";
+
+/* No comment provided by engineer. */
+"Failed to get the home." = "获取家庭失败";
+
+/* No comment provided by engineer. */
+"Failed to get the home list." = "获取家庭列表失败";
+
+/* No comment provided by engineer. */
+"Failed to get the weather information." = "获取天气信息失败";
+
+/* Failed to Log Out */
+"Failed to log out." = "未能成功退出登录";
+
+/* No comment provided by engineer. */
+"Failed to log in." = "登录失败";
+
+/* No comment provided by engineer. */
+"Failed to sign up." = "注册失败";
+
+/* No comment provided by engineer. */
+"Failed to reset the password." = "重置密码失败";
+
+/* No comment provided by engineer. */
+"Failed to send the verification code." = "验证码发送失败";
+
+/* No comment provided by engineer. */
+"Failed to update the home information." = "更新家庭信息失败";
+
+/* No comment provided by engineer. */
+"If the device is removed, you will not be able to control the device." = "如果移除设备，你将不再能控制此设备";
+
+/* Confirm logout. */
+"Log out" = "退出登录";
+
+/* User hasn't select a current home. */
+"Not Selected" = "未选择";
+
+/* No comment provided by engineer. */
+"Offline" = "离线";
+
+/* No comment provided by engineer. */
+"OK" = "好的";
+
+/* No comment provided by engineer. */
+"Online" = "在线";
+
+/* No comment provided by engineer. */
+"Reset the password successfully." = "重置密码成功";
+
+/* No comment provided by engineer. */
+"Check your email to get the verification code." = "请检查您的电子邮件以获取验证码。";
+
+/* No comment provided by engineer. */
+"Check your message to get the verification code." = "请检查您的信息以获取验证码。";
+
+/* No comment provided by engineer. */
+"Confirm whether location access is enabled for the app." = "请确认该应用是否启用了位置访问功能。";
+
+/* No comment provided by engineer. */
+"Go back and log in withyour account." = "请返回以登录您的账户。";
+
+/* No comment provided by engineer. */
+"Please go back." = "请返回。";
+
+/* No comment provided by engineer. */
+"Signed up successfully." = "注册成功";
+
+/* Perform remove device action */
+"Remove" = "移除";
+
+/* No comment provided by engineer. */
+"Are you sure to remove the device?" = "确认移除设备？";
+
+/* No comment provided by engineer. */
+"Requesting credentials..." = "请求凭据中";
+
+/* Select option to control enum value dp. */
+"Select" = "请选择";
+
+/* No comment provided by engineer. */
+"Success" = "成功";
+
+/* Successfully added one device. */
+"Successfully Added (name)" = "成功添加了 %@";
+
+/* No comment provided by engineer. */
+"Added a new home successfully." = "成功添加新家庭。";
+
+/* No comment provided by engineer. */
+"This device has been removed." = "该设备已被移除。";
+
+/* No comment provided by engineer. */
+"This device is offline. The control panel is unavailable." = "设备处于离线状态。控制面板不可用。";
+
+/* Unknown name device. */
+"Unknown Name" = "未知名称设备";
+
+/* No comment provided by engineer. */
+"The verification code is sent successfully." = "验证码发送成功";
+
+/* No comment provided by engineer. */
+"You are deleting the home." = "您将要解散这个家庭。";
+
+/* User tapped the logout button. */
+"You are logging out." = "您将要退出登录。";
+
+"Searching" = "搜索中";
+
+"Activating" = "激活中";
+
+"Unknown Name" = "未知名称设备";
+
+/* Successfully added one device. */
+"Successfully Added" = "成功添加了";
+
+"Failed to activate the Bluetooth LE device." = "激活 BLE 设备失败";
+
+"Enable" = "点击开启";
+
+"Disable" = "点击关闭";
+
+"Up · " = "上升 · ";
+
+"Down · " = "下降 · ";
+
+"Duration" = "持续时间";
+
+"Switch Mode" = "开关模式";
+
+"Reverse" = "反向";
+
+"Yes" = "是";
+
+"No" = "否";
+
+"seconds" = "秒";
+
+"Pairing" = "配网";
+
+"Start Pairing" = "前往配网";

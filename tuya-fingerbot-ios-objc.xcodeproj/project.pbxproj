@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34184CCE262FC86B00CD9FAC /* DualMode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34184CCC262FC86B00CD9FAC /* DualMode.storyboard */; };
+		34184CD5262FC8D900CD9FAC /* DualModeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34184CD4262FC8D800CD9FAC /* DualModeTableViewController.m */; };
+		34C39EC7261C474F00BD0E25 /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 34C39EC6261C474F00BD0E25 /* t_s.bmp */; };
+		34C3A1D6261FFAFA00BD0E25 /* FingerBotPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C3A1D5261FFAFA00BD0E25 /* FingerBotPanelViewController.m */; };
+		34C3A1D92620011A00BD0E25 /* FingerBot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C3A1D82620011A00BD0E25 /* FingerBot.storyboard */; };
+		34C3A1DD2620072500BD0E25 /* BLE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C3A1DB2620072500BD0E25 /* BLE.storyboard */; };
+		34C3A1E9262009EB00BD0E25 /* BLEModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C3A1E8262009EB00BD0E25 /* BLEModeViewController.m */; };
+		34C3A45826257DDF00BD0E25 /* configList.json in Resources */ = {isa = PBXBuildFile; fileRef = 34C3A45726257DDF00BD0E25 /* configList.json */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		AFA3294225D0E33C0065E54E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3293725D0E3220065E54E /* main.m */; };
+		AFA329BD25D0E3500065E54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3294525D0E34F0065E54E /* AppDelegate.m */; };
+		AFA329CD25D0E3500065E54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3296825D0E3500065E54E /* LaunchScreen.storyboard */; };
+		AFA329CE25D0E3500065E54E /* TuyaSmartMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3296A25D0E3500065E54E /* TuyaSmartMain.storyboard */; };
+		AFA329CF25D0E3500065E54E /* DeviceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3296C25D0E3500065E54E /* DeviceList.storyboard */; };
+		AFA329D025D0E3500065E54E /* SwitchHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3296E25D0E3500065E54E /* SwitchHome.storyboard */; };
+		AFA329D125D0E3500065E54E /* APMode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297025D0E3500065E54E /* APMode.storyboard */; };
+		AFA329D225D0E3500065E54E /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297225D0E3500065E54E /* Register.storyboard */; };
+		AFA329D325D0E3500065E54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297425D0E3500065E54E /* Main.storyboard */; };
+		AFA329D425D0E3500065E54E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297625D0E3500065E54E /* Login.storyboard */; };
+		AFA329D525D0E3500065E54E /* EZMode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297825D0E3500065E54E /* EZMode.storyboard */; };
+		AFA329D625D0E3500065E54E /* NewHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297A25D0E3500065E54E /* NewHome.storyboard */; };
+		AFA329D725D0E3500065E54E /* UserInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297C25D0E3500065E54E /* UserInformation.storyboard */; };
+		AFA329D825D0E3500065E54E /* HomeList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA3297E25D0E3500065E54E /* HomeList.storyboard */; };
+		AFA329D925D0E3500065E54E /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298225D0E3500065E54E /* Home.m */; };
+		AFA329DA25D0E3500065E54E /* SwitchHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298525D0E3500065E54E /* SwitchHomeTableViewController.m */; };
+		AFA329DB25D0E3500065E54E /* EditHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298725D0E3500065E54E /* EditHomeTableViewController.m */; };
+		AFA329DC25D0E3500065E54E /* NewHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298825D0E3500065E54E /* NewHomeTableViewController.m */; };
+		AFA329DD25D0E3500065E54E /* HomeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298925D0E3500065E54E /* HomeDetailTableViewController.m */; };
+		AFA329DE25D0E3500065E54E /* HomeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298B25D0E3500065E54E /* HomeListTableViewController.m */; };
+		AFA329DF25D0E3500065E54E /* DeviceDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3298F25D0E3500065E54E /* DeviceDetailTableViewController.m */; };
+		AFA329E025D0E3500065E54E /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3299425D0E3500065E54E /* SwitchTableViewCell.m */; };
+		AFA329E125D0E3500065E54E /* EnumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3299525D0E3500065E54E /* EnumTableViewCell.m */; };
+		AFA329E225D0E3500065E54E /* LabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3299625D0E3500065E54E /* LabelTableViewCell.m */; };
+		AFA329E325D0E3500065E54E /* DeviceStatusBehaveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3299725D0E3500065E54E /* DeviceStatusBehaveCell.m */; };
+		AFA329E425D0E3500065E54E /* SliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3299825D0E3500065E54E /* SliderTableViewCell.m */; };
+		AFA329E525D0E3500065E54E /* StringTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3299925D0E3500065E54E /* StringTableViewCell.m */; };
+		AFA329E625D0E3500065E54E /* DeviceListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329A125D0E3500065E54E /* DeviceListTableViewController.m */; };
+		AFA329E725D0E3500065E54E /* DeviceControlTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329A225D0E3500065E54E /* DeviceControlTableViewController.m */; };
+		AFA329E825D0E3500065E54E /* DeviceControlCellHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329A325D0E3500065E54E /* DeviceControlCellHelper.m */; };
+		AFA329E925D0E3500065E54E /* APModeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329A725D0E3500065E54E /* APModeTableViewController.m */; };
+		AFA329EA25D0E3500065E54E /* EZModeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329A825D0E3500065E54E /* EZModeTableViewController.m */; };
+		AFA329EB25D0E3500065E54E /* RegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329AB25D0E3500065E54E /* RegisterTableViewController.m */; };
+		AFA329EC25D0E3500065E54E /* ResetPasswordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329AC25D0E3500065E54E /* ResetPasswordTableViewController.m */; };
+		AFA329ED25D0E3500065E54E /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329AF25D0E3500065E54E /* LoginTableViewController.m */; };
+		AFA329EE25D0E3500065E54E /* UserInformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329B025D0E3500065E54E /* UserInformationTableViewController.m */; };
+		AFA329EF25D0E3500065E54E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329B325D0E3500065E54E /* MainViewController.m */; };
+		AFA329F025D0E3500065E54E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329B425D0E3500065E54E /* MainTableViewController.m */; };
+		AFA329F125D0E3500065E54E /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329B825D0E3500065E54E /* Alert.m */; };
+		AFA329F225D0E3500065E54E /* NotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329B925D0E3500065E54E /* NotificationName.m */; };
+		AFA329F325D0E3500065E54E /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329BA25D0E3500065E54E /* UIButton+Extensions.m */; };
+		AFA32A1225D0EBAB0065E54E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA32A1025D0EBAB0065E54E /* Localizable.strings */; };
+		C65E3F597F22C32115C603D1 /* libPods-tuya-fingerbot-ios-objc_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 397E0B18458118E9EEA95110 /* libPods-tuya-fingerbot-ios-objc_Example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		019AB248BAA58C4BB9969AA6 /* Pods_tuya_fingerbot_ios_objc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuya_fingerbot_ios_objc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FA97B78FD815F76FB02F3D /* tuya-fingerbot-ios-objc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "tuya-fingerbot-ios-objc.podspec"; path = "../tuya-fingerbot-ios-objc.podspec"; sourceTree = "<group>"; };
+		330DA25EEC4B152D0DA7FB5F /* Pods-tuya-fingerbot-ios-objc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuya-fingerbot-ios-objc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-tuya-fingerbot-ios-objc_Tests/Pods-tuya-fingerbot-ios-objc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		34184CCD262FC86B00CD9FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DualMode.storyboard; sourceTree = "<group>"; };
+		34184CD1262FC88800CD9FAC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DualMode.strings"; sourceTree = "<group>"; };
+		34184CD3262FC8D800CD9FAC /* DualModeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualModeTableViewController.h; sourceTree = "<group>"; };
+		34184CD4262FC8D800CD9FAC /* DualModeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualModeTableViewController.m; sourceTree = "<group>"; };
+		34C39EC6261C474F00BD0E25 /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
+		34C3A1D4261FFAFA00BD0E25 /* FingerBotPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerBotPanelViewController.h; sourceTree = "<group>"; };
+		34C3A1D5261FFAFA00BD0E25 /* FingerBotPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerBotPanelViewController.m; sourceTree = "<group>"; };
+		34C3A1D82620011A00BD0E25 /* FingerBot.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FingerBot.storyboard; sourceTree = "<group>"; };
+		34C3A1DC2620072500BD0E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BLE.storyboard; sourceTree = "<group>"; };
+		34C3A1E52620078000BD0E25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BLE.strings"; sourceTree = "<group>"; };
+		34C3A1E7262009EB00BD0E25 /* BLEModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEModeViewController.h; sourceTree = "<group>"; };
+		34C3A1E8262009EB00BD0E25 /* BLEModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEModeViewController.m; sourceTree = "<group>"; };
+		34C3A45726257DDF00BD0E25 /* configList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configList.json; sourceTree = "<group>"; };
+		37DEB3ACE8E76C56D4C18DE2 /* Pods-tuya-fingerbot-ios-objc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuya-fingerbot-ios-objc_Tests.release.xcconfig"; path = "Target Support Files/Pods-tuya-fingerbot-ios-objc_Tests/Pods-tuya-fingerbot-ios-objc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		397E0B18458118E9EEA95110 /* libPods-tuya-fingerbot-ios-objc_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tuya-fingerbot-ios-objc_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFF36487F3DB8850BAA35BF /* Pods-tuya-fingerbot-ios-objc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuya-fingerbot-ios-objc_Example.debug.xcconfig"; path = "Target Support Files/Pods-tuya-fingerbot-ios-objc_Example/Pods-tuya-fingerbot-ios-objc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5290DE3752AEFA85B3AE9110 /* Pods-tuya-fingerbot-ios-objc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuya-fingerbot-ios-objc_Example.release.xcconfig"; path = "Target Support Files/Pods-tuya-fingerbot-ios-objc_Example/Pods-tuya-fingerbot-ios-objc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* tuya-fingerbot-ios-objc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tuya-fingerbot-ios-objc_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* tuya-fingerbot-ios-objc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tuya-fingerbot-ios-objc-Info.plist"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* tuya-fingerbot-ios-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tuya-fingerbot-ios-objc-Prefix.pch"; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFA3293725D0E3220065E54E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFA3294525D0E34F0065E54E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFA3294725D0E34F0065E54E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFA3294925D0E34F0065E54E /* AppKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKey.h; sourceTree = "<group>"; };
+		AFA3296925D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFA3296B25D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TuyaSmartMain.storyboard; sourceTree = "<group>"; };
+		AFA3296D25D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DeviceList.storyboard; sourceTree = "<group>"; };
+		AFA3296F25D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SwitchHome.storyboard; sourceTree = "<group>"; };
+		AFA3297125D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/APMode.storyboard; sourceTree = "<group>"; };
+		AFA3297325D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Register.storyboard; sourceTree = "<group>"; };
+		AFA3297525D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFA3297725D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		AFA3297925D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EZMode.storyboard; sourceTree = "<group>"; };
+		AFA3297B25D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewHome.storyboard; sourceTree = "<group>"; };
+		AFA3297D25D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserInformation.storyboard; sourceTree = "<group>"; };
+		AFA3297F25D0E3500065E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeList.storyboard; sourceTree = "<group>"; };
+		AFA3298225D0E3500065E54E /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		AFA3298325D0E3500065E54E /* NewHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewHomeTableViewController.h; sourceTree = "<group>"; };
+		AFA3298425D0E3500065E54E /* HomeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailTableViewController.h; sourceTree = "<group>"; };
+		AFA3298525D0E3500065E54E /* SwitchHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchHomeTableViewController.m; sourceTree = "<group>"; };
+		AFA3298625D0E3500065E54E /* HomeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListTableViewController.h; sourceTree = "<group>"; };
+		AFA3298725D0E3500065E54E /* EditHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditHomeTableViewController.m; sourceTree = "<group>"; };
+		AFA3298825D0E3500065E54E /* NewHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewHomeTableViewController.m; sourceTree = "<group>"; };
+		AFA3298925D0E3500065E54E /* HomeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailTableViewController.m; sourceTree = "<group>"; };
+		AFA3298A25D0E3500065E54E /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		AFA3298B25D0E3500065E54E /* HomeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListTableViewController.m; sourceTree = "<group>"; };
+		AFA3298C25D0E3500065E54E /* SwitchHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchHomeTableViewController.h; sourceTree = "<group>"; };
+		AFA3298D25D0E3500065E54E /* EditHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditHomeTableViewController.h; sourceTree = "<group>"; };
+		AFA3298F25D0E3500065E54E /* DeviceDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailTableViewController.m; sourceTree = "<group>"; };
+		AFA3299025D0E3500065E54E /* DeviceControlCellHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceControlCellHelper.h; sourceTree = "<group>"; };
+		AFA3299125D0E3500065E54E /* DeviceControlTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceControlTableViewController.h; sourceTree = "<group>"; };
+		AFA3299225D0E3500065E54E /* DeviceListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListTableViewController.h; sourceTree = "<group>"; };
+		AFA3299425D0E3500065E54E /* SwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTableViewCell.m; sourceTree = "<group>"; };
+		AFA3299525D0E3500065E54E /* EnumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumTableViewCell.m; sourceTree = "<group>"; };
+		AFA3299625D0E3500065E54E /* LabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelTableViewCell.m; sourceTree = "<group>"; };
+		AFA3299725D0E3500065E54E /* DeviceStatusBehaveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceStatusBehaveCell.m; sourceTree = "<group>"; };
+		AFA3299825D0E3500065E54E /* SliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderTableViewCell.m; sourceTree = "<group>"; };
+		AFA3299925D0E3500065E54E /* StringTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTableViewCell.m; sourceTree = "<group>"; };
+		AFA3299A25D0E3500065E54E /* SwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTableViewCell.h; sourceTree = "<group>"; };
+		AFA3299B25D0E3500065E54E /* EnumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumTableViewCell.h; sourceTree = "<group>"; };
+		AFA3299C25D0E3500065E54E /* SliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderTableViewCell.h; sourceTree = "<group>"; };
+		AFA3299D25D0E3500065E54E /* DeviceStatusBehaveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStatusBehaveCell.h; sourceTree = "<group>"; };
+		AFA3299E25D0E3500065E54E /* LabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTableViewCell.h; sourceTree = "<group>"; };
+		AFA3299F25D0E3500065E54E /* StringTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTableViewCell.h; sourceTree = "<group>"; };
+		AFA329A025D0E3500065E54E /* DeviceDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailTableViewController.h; sourceTree = "<group>"; };
+		AFA329A125D0E3500065E54E /* DeviceListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListTableViewController.m; sourceTree = "<group>"; };
+		AFA329A225D0E3500065E54E /* DeviceControlTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceControlTableViewController.m; sourceTree = "<group>"; };
+		AFA329A325D0E3500065E54E /* DeviceControlCellHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceControlCellHelper.m; sourceTree = "<group>"; };
+		AFA329A525D0E3500065E54E /* APModeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APModeTableViewController.h; sourceTree = "<group>"; };
+		AFA329A625D0E3500065E54E /* EZModeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZModeTableViewController.h; sourceTree = "<group>"; };
+		AFA329A725D0E3500065E54E /* APModeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APModeTableViewController.m; sourceTree = "<group>"; };
+		AFA329A825D0E3500065E54E /* EZModeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZModeTableViewController.m; sourceTree = "<group>"; };
+		AFA329AA25D0E3500065E54E /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
+		AFA329AB25D0E3500065E54E /* RegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewController.m; sourceTree = "<group>"; };
+		AFA329AC25D0E3500065E54E /* ResetPasswordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordTableViewController.m; sourceTree = "<group>"; };
+		AFA329AD25D0E3500065E54E /* UserInformationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformationTableViewController.h; sourceTree = "<group>"; };
+		AFA329AE25D0E3500065E54E /* RegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewController.h; sourceTree = "<group>"; };
+		AFA329AF25D0E3500065E54E /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
+		AFA329B025D0E3500065E54E /* UserInformationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformationTableViewController.m; sourceTree = "<group>"; };
+		AFA329B125D0E3500065E54E /* ResetPasswordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordTableViewController.h; sourceTree = "<group>"; };
+		AFA329B225D0E3500065E54E /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		AFA329B325D0E3500065E54E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AFA329B425D0E3500065E54E /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		AFA329B525D0E3500065E54E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AFA329B725D0E3500065E54E /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		AFA329B825D0E3500065E54E /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		AFA329B925D0E3500065E54E /* NotificationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationName.m; sourceTree = "<group>"; };
+		AFA329BA25D0E3500065E54E /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
+		AFA329BB25D0E3500065E54E /* NotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationName.h; sourceTree = "<group>"; };
+		AFA329BC25D0E3500065E54E /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		AFA329F825D0E3F50065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AFA329F925D0E3F80065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TuyaSmartMain.strings"; sourceTree = "<group>"; };
+		AFA329FA25D0E3FD0065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DeviceList.strings"; sourceTree = "<group>"; };
+		AFA329FB25D0E4000065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SwitchHome.strings"; sourceTree = "<group>"; };
+		AFA329FC25D0E4030065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APMode.strings"; sourceTree = "<group>"; };
+		AFA329FD25D0E4060065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Register.strings"; sourceTree = "<group>"; };
+		AFA329FE25D0E4090065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		AFA329FF25D0E40C0065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Login.strings"; sourceTree = "<group>"; };
+		AFA32A0025D0E4100065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/EZMode.strings"; sourceTree = "<group>"; };
+		AFA32A0125D0E4130065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/NewHome.strings"; sourceTree = "<group>"; };
+		AFA32A0225D0E4160065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UserInformation.strings"; sourceTree = "<group>"; };
+		AFA32A0325D0E4190065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HomeList.strings"; sourceTree = "<group>"; };
+		AFA32A1125D0EBAB0065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AFA32A1725D0ED1E0065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D30246D2B1890CEE27304CDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F1CB2D0A48612965B08C9D87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				C65E3F597F22C32115C603D1 /* libPods-tuya-fingerbot-ios-objc_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CD619E3DF3346F2A314281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF36487F3DB8850BAA35BF /* Pods-tuya-fingerbot-ios-objc_Example.debug.xcconfig */,
+				5290DE3752AEFA85B3AE9110 /* Pods-tuya-fingerbot-ios-objc_Example.release.xcconfig */,
+				330DA25EEC4B152D0DA7FB5F /* Pods-tuya-fingerbot-ios-objc_Tests.debug.xcconfig */,
+				37DEB3ACE8E76C56D4C18DE2 /* Pods-tuya-fingerbot-ios-objc_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34C3A1D3261FFABF00BD0E25 /* FingerBot */ = {
+			isa = PBXGroup;
+			children = (
+				34C3A1D4261FFAFA00BD0E25 /* FingerBotPanelViewController.h */,
+				34C3A1D5261FFAFA00BD0E25 /* FingerBotPanelViewController.m */,
+			);
+			path = FingerBot;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for tuya-fingerbot-ios-objc */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				06CD619E3DF3346F2A314281 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* tuya-fingerbot-ios-objc_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				019AB248BAA58C4BB9969AA6 /* Pods_tuya_fingerbot_ios_objc_Tests.framework */,
+				397E0B18458118E9EEA95110 /* libPods-tuya-fingerbot-ios-objc_Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for tuya-fingerbot-ios-objc */ = {
+			isa = PBXGroup;
+			children = (
+				34C3A45726257DDF00BD0E25 /* configList.json */,
+				34C39EC6261C474F00BD0E25 /* t_s.bmp */,
+				AFA3294725D0E34F0065E54E /* AppDelegate.h */,
+				AFA3294525D0E34F0065E54E /* AppDelegate.m */,
+				AFA3294925D0E34F0065E54E /* AppKey.h */,
+				AFA3294F25D0E34F0065E54E /* StoryBoard */,
+				AFA3298025D0E3500065E54E /* ViewController */,
+				AFA329B625D0E3500065E54E /* Helper */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for tuya-fingerbot-ios-objc";
+			path = "tuya-fingerbot-ios-objc";
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* tuya-fingerbot-ios-objc-Info.plist */,
+				AFA3293725D0E3220065E54E /* main.m */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				AFA32A1025D0EBAB0065E54E /* Localizable.strings */,
+				6003F59B195388D20070C39A /* tuya-fingerbot-ios-objc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				24FA97B78FD815F76FB02F3D /* tuya-fingerbot-ios-objc.podspec */,
+				F1CB2D0A48612965B08C9D87 /* README.md */,
+				D30246D2B1890CEE27304CDC /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AFA3294F25D0E34F0065E54E /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				34184CCC262FC86B00CD9FAC /* DualMode.storyboard */,
+				34C3A1DB2620072500BD0E25 /* BLE.storyboard */,
+				AFA3296825D0E3500065E54E /* LaunchScreen.storyboard */,
+				AFA3296A25D0E3500065E54E /* TuyaSmartMain.storyboard */,
+				AFA3296C25D0E3500065E54E /* DeviceList.storyboard */,
+				AFA3296E25D0E3500065E54E /* SwitchHome.storyboard */,
+				AFA3297025D0E3500065E54E /* APMode.storyboard */,
+				AFA3297225D0E3500065E54E /* Register.storyboard */,
+				AFA3297425D0E3500065E54E /* Main.storyboard */,
+				AFA3297625D0E3500065E54E /* Login.storyboard */,
+				AFA3297825D0E3500065E54E /* EZMode.storyboard */,
+				AFA3297A25D0E3500065E54E /* NewHome.storyboard */,
+				AFA3297C25D0E3500065E54E /* UserInformation.storyboard */,
+				AFA3297E25D0E3500065E54E /* HomeList.storyboard */,
+				34C3A1D82620011A00BD0E25 /* FingerBot.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AFA3298025D0E3500065E54E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34C3A1D3261FFABF00BD0E25 /* FingerBot */,
+				AFA3298125D0E3500065E54E /* HomeManagement */,
+				AFA3298E25D0E3500065E54E /* Device Management */,
+				AFA329A425D0E3500065E54E /* Device Network Configuration */,
+				AFA329A925D0E3500065E54E /* UserManagement */,
+				AFA329B225D0E3500065E54E /* MainTableViewController.h */,
+				AFA329B325D0E3500065E54E /* MainViewController.m */,
+				AFA329B425D0E3500065E54E /* MainTableViewController.m */,
+				AFA329B525D0E3500065E54E /* MainViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AFA3298125D0E3500065E54E /* HomeManagement */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3298225D0E3500065E54E /* Home.m */,
+				AFA3298325D0E3500065E54E /* NewHomeTableViewController.h */,
+				AFA3298425D0E3500065E54E /* HomeDetailTableViewController.h */,
+				AFA3298525D0E3500065E54E /* SwitchHomeTableViewController.m */,
+				AFA3298625D0E3500065E54E /* HomeListTableViewController.h */,
+				AFA3298725D0E3500065E54E /* EditHomeTableViewController.m */,
+				AFA3298825D0E3500065E54E /* NewHomeTableViewController.m */,
+				AFA3298925D0E3500065E54E /* HomeDetailTableViewController.m */,
+				AFA3298A25D0E3500065E54E /* Home.h */,
+				AFA3298B25D0E3500065E54E /* HomeListTableViewController.m */,
+				AFA3298C25D0E3500065E54E /* SwitchHomeTableViewController.h */,
+				AFA3298D25D0E3500065E54E /* EditHomeTableViewController.h */,
+			);
+			path = HomeManagement;
+			sourceTree = "<group>";
+		};
+		AFA3298E25D0E3500065E54E /* Device Management */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3299325D0E3500065E54E /* Cell */,
+				AFA3298F25D0E3500065E54E /* DeviceDetailTableViewController.m */,
+				AFA3299025D0E3500065E54E /* DeviceControlCellHelper.h */,
+				AFA3299125D0E3500065E54E /* DeviceControlTableViewController.h */,
+				AFA3299225D0E3500065E54E /* DeviceListTableViewController.h */,
+				AFA329A025D0E3500065E54E /* DeviceDetailTableViewController.h */,
+				AFA329A125D0E3500065E54E /* DeviceListTableViewController.m */,
+				AFA329A225D0E3500065E54E /* DeviceControlTableViewController.m */,
+				AFA329A325D0E3500065E54E /* DeviceControlCellHelper.m */,
+			);
+			path = "Device Management";
+			sourceTree = "<group>";
+		};
+		AFA3299325D0E3500065E54E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3299425D0E3500065E54E /* SwitchTableViewCell.m */,
+				AFA3299525D0E3500065E54E /* EnumTableViewCell.m */,
+				AFA3299625D0E3500065E54E /* LabelTableViewCell.m */,
+				AFA3299725D0E3500065E54E /* DeviceStatusBehaveCell.m */,
+				AFA3299825D0E3500065E54E /* SliderTableViewCell.m */,
+				AFA3299925D0E3500065E54E /* StringTableViewCell.m */,
+				AFA3299A25D0E3500065E54E /* SwitchTableViewCell.h */,
+				AFA3299B25D0E3500065E54E /* EnumTableViewCell.h */,
+				AFA3299C25D0E3500065E54E /* SliderTableViewCell.h */,
+				AFA3299D25D0E3500065E54E /* DeviceStatusBehaveCell.h */,
+				AFA3299E25D0E3500065E54E /* LabelTableViewCell.h */,
+				AFA3299F25D0E3500065E54E /* StringTableViewCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AFA329A425D0E3500065E54E /* Device Network Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				34184CD3262FC8D800CD9FAC /* DualModeTableViewController.h */,
+				34184CD4262FC8D800CD9FAC /* DualModeTableViewController.m */,
+				AFA329A525D0E3500065E54E /* APModeTableViewController.h */,
+				AFA329A625D0E3500065E54E /* EZModeTableViewController.h */,
+				AFA329A725D0E3500065E54E /* APModeTableViewController.m */,
+				AFA329A825D0E3500065E54E /* EZModeTableViewController.m */,
+				34C3A1E7262009EB00BD0E25 /* BLEModeViewController.h */,
+				34C3A1E8262009EB00BD0E25 /* BLEModeViewController.m */,
+			);
+			path = "Device Network Configuration";
+			sourceTree = "<group>";
+		};
+		AFA329A925D0E3500065E54E /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+				AFA329AA25D0E3500065E54E /* LoginTableViewController.h */,
+				AFA329AB25D0E3500065E54E /* RegisterTableViewController.m */,
+				AFA329AC25D0E3500065E54E /* ResetPasswordTableViewController.m */,
+				AFA329AD25D0E3500065E54E /* UserInformationTableViewController.h */,
+				AFA329AE25D0E3500065E54E /* RegisterTableViewController.h */,
+				AFA329AF25D0E3500065E54E /* LoginTableViewController.m */,
+				AFA329B025D0E3500065E54E /* UserInformationTableViewController.m */,
+				AFA329B125D0E3500065E54E /* ResetPasswordTableViewController.h */,
+			);
+			path = UserManagement;
+			sourceTree = "<group>";
+		};
+		AFA329B625D0E3500065E54E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AFA329B725D0E3500065E54E /* UIButton+Extensions.h */,
+				AFA329B825D0E3500065E54E /* Alert.m */,
+				AFA329B925D0E3500065E54E /* NotificationName.m */,
+				AFA329BA25D0E3500065E54E /* UIButton+Extensions.m */,
+				AFA329BB25D0E3500065E54E /* NotificationName.h */,
+				AFA329BC25D0E3500065E54E /* Alert.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* tuya-fingerbot-ios-objc_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "tuya-fingerbot-ios-objc_Example" */;
+			buildPhases = (
+				01C0C360395B7865281A787C /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				7E92387DAB383E7ECDDF621A /* [CP] Embed Pods Frameworks */,
+				8C95EEBEA9F1CEC52F78D579 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tuya-fingerbot-ios-objc_Example";
+			productName = "tuya-fingerbot-ios-objc";
+			productReference = 6003F58A195388D20070C39A /* tuya-fingerbot-ios-objc_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TUYA;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tuya;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6J8RRFLZ4S;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "tuya-fingerbot-ios-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* tuya-fingerbot-ios-objc_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA329D525D0E3500065E54E /* EZMode.storyboard in Resources */,
+				34184CCE262FC86B00CD9FAC /* DualMode.storyboard in Resources */,
+				AFA329D125D0E3500065E54E /* APMode.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				34C3A45826257DDF00BD0E25 /* configList.json in Resources */,
+				AFA329D025D0E3500065E54E /* SwitchHome.storyboard in Resources */,
+				AFA329D725D0E3500065E54E /* UserInformation.storyboard in Resources */,
+				34C3A1D92620011A00BD0E25 /* FingerBot.storyboard in Resources */,
+				AFA329D425D0E3500065E54E /* Login.storyboard in Resources */,
+				AFA329CF25D0E3500065E54E /* DeviceList.storyboard in Resources */,
+				AFA329CD25D0E3500065E54E /* LaunchScreen.storyboard in Resources */,
+				AFA329D825D0E3500065E54E /* HomeList.storyboard in Resources */,
+				AFA329D325D0E3500065E54E /* Main.storyboard in Resources */,
+				34C39EC7261C474F00BD0E25 /* t_s.bmp in Resources */,
+				34C3A1DD2620072500BD0E25 /* BLE.storyboard in Resources */,
+				AFA329D625D0E3500065E54E /* NewHome.storyboard in Resources */,
+				AFA329D225D0E3500065E54E /* Register.storyboard in Resources */,
+				AFA32A1225D0EBAB0065E54E /* Localizable.strings in Resources */,
+				AFA329CE25D0E3500065E54E /* TuyaSmartMain.storyboard in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C0C360395B7865281A787C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuya-fingerbot-ios-objc_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E92387DAB383E7ECDDF621A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuya-fingerbot-ios-objc_Example/Pods-tuya-fingerbot-ios-objc_Example-frameworks.sh",
+				"${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework",
+				"${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaSmartQUIC.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/TuyaSmartQUIC.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuya-fingerbot-ios-objc_Example/Pods-tuya-fingerbot-ios-objc_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C95EEBEA9F1CEC52F78D579 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuya-fingerbot-ios-objc_Example/Pods-tuya-fingerbot-ios-objc_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ATGestureLockView/ATGestureLockView.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYActivatorModule/Activator.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYAlertView/TYAlertView.bundle",
+				"${PODS_ROOT}/TYAvatarEditKit/TYAvatarEditKit-0.1.4-rc.1/Assets/bundles/TYCropViewControllerBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYDeviceDetailModule/TYDeviceDetailModule.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYHybridContainer/TYHybridContainer.bundle",
+				"${PODS_ROOT}/TYNavigationController/TYNavigationController-1.13.0-rc.2/Assets/bundles/TYNavigationRes.bundle",
+				"${PODS_ROOT}/TYNetPoolModule/TYNetPoolModule-1.0.0-rc.21/Assets/bundles/TYNetPoolModule.bundle",
+				"${PODS_ROOT}/TYOEMConfig/TYOEMConfig-1.21.1-tybizbundle.3.22.0-2-rc.1/Assets/resources/customColor.plist",
+				"${PODS_ROOT}/TYPanelBundleManager/TYPanelBundleManager-1.3.1-rc.2/Assets/resources/ty_panel_download_loading@2x.png",
+				"${PODS_ROOT}/TYPanelBundleManager/TYPanelBundleManager-1.3.1-rc.2/Assets/resources/ty_panel_download_loading@3x.png",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYPanelContext/TYPanelContext.bundle",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ios.base.jsbundle",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/panel_black_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/panel_black_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/panel_white_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/panel_white_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/tysmart_add@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/tysmart_add@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/tysmart_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/tysmart_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_firmware_loading@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_firmware_loading@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_item_selected@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_item_selected@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_lamp_hsl_circle@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_lamp_hsl_circle@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_arrows@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_arrows@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_minus@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_minus@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_more@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_more@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_plus@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_plus@3x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_select@2x.png",
+				"${PODS_ROOT}/TYPanelModule/TYPanelModule-2.7.5-tybizbundle-1-rc.5/Assets/resources/ty_panel_select@3x.png",
+				"${PODS_ROOT}/TYQRCodeModule/TYQRCodeModule-1.8.0-rc.1/Assets/bundles/QRCode.bundle",
+				"${PODS_ROOT}/TYRealClass/TYRealClass-0.0.3-rc.1/Assets/bundles/TYOBC.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYSmartActionDialog/TYSmartActionDialog.bundle",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.22.0-rc.7/Assets/resources/cell_view_arrow@2x.png",
+				"${PODS_ROOT}/TYSmartBusinessLibrary/TYSmartBusinessLibrary-3.22.0-rc.7/Assets/resources/cell_view_arrow@3x.png",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYSmartBusinessLibrary/TPViews.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYSmartBusinessLibrary/TYSmartBusinessLibraryRes.bundle",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.3-rc.11/Assets/resources/ty_timer_invalid_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.3-rc.11/Assets/resources/ty_timer_invalid_icon@3x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.3-rc.11/Assets/resources/ty_timer_list_empty_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.3-rc.11/Assets/resources/ty_timer_list_empty_icon@3x.png",
+				"${PODS_ROOT}/TYUrlPredefined/TYUrlPredefined-0.2.96/Assets/resources/ty_route_config.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYVideoCipper/TYVideoCipper.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYVideoPlayer/TYVideoPlayer.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartActivatorBizBundle/TuyaSmartActivatorBizBundle.bundle",
+				"${PODS_ROOT}/TuyaSmartBaseKit/ios/TuyaSmartBaseKit.framework/Versions/A/Resources/cerficate_v2",
+				"${PODS_ROOT}/TuyaSmartBizCore/TuyaSmartBizCore-3.22.0-rc.3/Assets/resources/custom.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartBizCore/TuyaSmartBizCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDeviceDetailBizBundle/TuyaSmartDeviceDetailBizBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartPanelBizBundle/TuyaSmartPanelBizBundle.bundle",
+				"${PODS_ROOT}/TuyaSmartUtil/ios/TuyaSmartUtil.framework/Versions/A/Resources/TuyaSmartUtil.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ATGestureLockView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Activator.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYAlertView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYCropViewControllerBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYDeviceDetailModule.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYHybridContainer.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYNavigationRes.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYNetPoolModule.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/customColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_download_loading@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_download_loading@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYPanelContext.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ios.base.jsbundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_black_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_black_more@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_white_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/panel_white_more@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tysmart_add@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tysmart_add@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tysmart_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tysmart_more@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_firmware_loading@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_firmware_loading@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_item_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_item_selected@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_lamp_hsl_circle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_lamp_hsl_circle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_arrows@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_arrows@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_minus@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_minus@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_more@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_plus@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_plus@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_select@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_panel_select@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QRCode.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYOBC.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYSmartActionDialog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cell_view_arrow@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cell_view_arrow@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPViews.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYSmartBusinessLibraryRes.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_timer_invalid_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_timer_invalid_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_timer_list_empty_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_timer_list_empty_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ty_route_config.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYVideoCipper.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYVideoPlayer.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartActivatorBizBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cerficate_v2",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/custom.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartBizCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartDeviceDetailBizBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartPanelBizBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartUtil.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuya-fingerbot-ios-objc_Example/Pods-tuya-fingerbot-ios-objc_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA329BD25D0E3500065E54E /* AppDelegate.m in Sources */,
+				AFA329EA25D0E3500065E54E /* EZModeTableViewController.m in Sources */,
+				AFA329E625D0E3500065E54E /* DeviceListTableViewController.m in Sources */,
+				AFA329E925D0E3500065E54E /* APModeTableViewController.m in Sources */,
+				AFA329E825D0E3500065E54E /* DeviceControlCellHelper.m in Sources */,
+				AFA329D925D0E3500065E54E /* Home.m in Sources */,
+				AFA3294225D0E33C0065E54E /* main.m in Sources */,
+				AFA329EE25D0E3500065E54E /* UserInformationTableViewController.m in Sources */,
+				34C3A1E9262009EB00BD0E25 /* BLEModeViewController.m in Sources */,
+				AFA329E225D0E3500065E54E /* LabelTableViewCell.m in Sources */,
+				34184CD5262FC8D900CD9FAC /* DualModeTableViewController.m in Sources */,
+				AFA329E025D0E3500065E54E /* SwitchTableViewCell.m in Sources */,
+				AFA329DF25D0E3500065E54E /* DeviceDetailTableViewController.m in Sources */,
+				AFA329E125D0E3500065E54E /* EnumTableViewCell.m in Sources */,
+				AFA329EC25D0E3500065E54E /* ResetPasswordTableViewController.m in Sources */,
+				AFA329ED25D0E3500065E54E /* LoginTableViewController.m in Sources */,
+				AFA329DC25D0E3500065E54E /* NewHomeTableViewController.m in Sources */,
+				AFA329DE25D0E3500065E54E /* HomeListTableViewController.m in Sources */,
+				AFA329F025D0E3500065E54E /* MainTableViewController.m in Sources */,
+				AFA329F125D0E3500065E54E /* Alert.m in Sources */,
+				AFA329EF25D0E3500065E54E /* MainViewController.m in Sources */,
+				AFA329E525D0E3500065E54E /* StringTableViewCell.m in Sources */,
+				AFA329DD25D0E3500065E54E /* HomeDetailTableViewController.m in Sources */,
+				34C3A1D6261FFAFA00BD0E25 /* FingerBotPanelViewController.m in Sources */,
+				AFA329DB25D0E3500065E54E /* EditHomeTableViewController.m in Sources */,
+				AFA329E325D0E3500065E54E /* DeviceStatusBehaveCell.m in Sources */,
+				AFA329E725D0E3500065E54E /* DeviceControlTableViewController.m in Sources */,
+				AFA329F325D0E3500065E54E /* UIButton+Extensions.m in Sources */,
+				AFA329DA25D0E3500065E54E /* SwitchHomeTableViewController.m in Sources */,
+				AFA329EB25D0E3500065E54E /* RegisterTableViewController.m in Sources */,
+				AFA329E425D0E3500065E54E /* SliderTableViewCell.m in Sources */,
+				AFA329F225D0E3500065E54E /* NotificationName.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34184CCC262FC86B00CD9FAC /* DualMode.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34184CCD262FC86B00CD9FAC /* Base */,
+				34184CD1262FC88800CD9FAC /* zh-Hans */,
+			);
+			name = DualMode.storyboard;
+			sourceTree = "<group>";
+		};
+		34C3A1DB2620072500BD0E25 /* BLE.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C3A1DC2620072500BD0E25 /* Base */,
+				34C3A1E52620078000BD0E25 /* zh-Hans */,
+			);
+			name = BLE.storyboard;
+			sourceTree = "<group>";
+		};
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA32A1725D0ED1E0065E54E /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFA3296825D0E3500065E54E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3296925D0E3500065E54E /* Base */,
+				AFA329F825D0E3F50065E54E /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3296A25D0E3500065E54E /* TuyaSmartMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3296B25D0E3500065E54E /* Base */,
+				AFA329F925D0E3F80065E54E /* zh-Hans */,
+			);
+			name = TuyaSmartMain.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3296C25D0E3500065E54E /* DeviceList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3296D25D0E3500065E54E /* Base */,
+				AFA329FA25D0E3FD0065E54E /* zh-Hans */,
+			);
+			name = DeviceList.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3296E25D0E3500065E54E /* SwitchHome.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3296F25D0E3500065E54E /* Base */,
+				AFA329FB25D0E4000065E54E /* zh-Hans */,
+			);
+			name = SwitchHome.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297025D0E3500065E54E /* APMode.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297125D0E3500065E54E /* Base */,
+				AFA329FC25D0E4030065E54E /* zh-Hans */,
+			);
+			name = APMode.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297225D0E3500065E54E /* Register.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297325D0E3500065E54E /* Base */,
+				AFA329FD25D0E4060065E54E /* zh-Hans */,
+			);
+			name = Register.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297425D0E3500065E54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297525D0E3500065E54E /* Base */,
+				AFA329FE25D0E4090065E54E /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297625D0E3500065E54E /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297725D0E3500065E54E /* Base */,
+				AFA329FF25D0E40C0065E54E /* zh-Hans */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297825D0E3500065E54E /* EZMode.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297925D0E3500065E54E /* Base */,
+				AFA32A0025D0E4100065E54E /* zh-Hans */,
+			);
+			name = EZMode.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297A25D0E3500065E54E /* NewHome.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297B25D0E3500065E54E /* Base */,
+				AFA32A0125D0E4130065E54E /* zh-Hans */,
+			);
+			name = NewHome.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297C25D0E3500065E54E /* UserInformation.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297D25D0E3500065E54E /* Base */,
+				AFA32A0225D0E4160065E54E /* zh-Hans */,
+			);
+			name = UserInformation.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA3297E25D0E3500065E54E /* HomeList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA3297F25D0E3500065E54E /* Base */,
+				AFA32A0325D0E4190065E54E /* zh-Hans */,
+			);
+			name = HomeList.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA32A1025D0EBAB0065E54E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA32A1125D0EBAB0065E54E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFF36487F3DB8850BAA35BF /* Pods-tuya-fingerbot-ios-objc_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6J8RRFLZ4S;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tuya-fingerbot-ios-objc/tuya-fingerbot-ios-objc-Prefix.pch";
+				INFOPLIST_FILE = "tuya-fingerbot-ios-objc/tuya-fingerbot-ios-objc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5290DE3752AEFA85B3AE9110 /* Pods-tuya-fingerbot-ios-objc_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6J8RRFLZ4S;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tuya-fingerbot-ios-objc/tuya-fingerbot-ios-objc-Prefix.pch";
+				INFOPLIST_FILE = "tuya-fingerbot-ios-objc/tuya-fingerbot-ios-objc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "tuya-fingerbot-ios-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "tuya-fingerbot-ios-objc_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}
