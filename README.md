@@ -24,9 +24,9 @@ This sample demonstrates the use of Tuya IoT App SDK for iOS to build an IoT app
    pod install
    ```
 
-3. Get a pair of keys and a security image from the [Tuya IoT Platform](https://iot.tuya.com/), and register a developer account if you don't have one. Then, perform the following steps:
+3. Get a pair of keys and a security image from the [Tuya IoT Platform](https://iot.tuya.com/?_source=github), and register a developer account if you don't have one. Then, perform the following steps:
 
-   1. Log in to the [Tuya IoT Platform](https://iot.tuya.com/). In the left-side navigation pane, choose **App** > **SDK Development**.
+   1. Log in to the [Tuya IoT Platform](https://iot.tuya.com/?_source=github). In the left-side navigation pane, choose **App** > **SDK Development**.
    2. Click **Create** to create an app.
    3. Fill in the required information. Make sure that you enter the valid package name. It cannot be changed afterward.
    4. Click the created app, and you will find the AppKey, AppSecret, and security image under the **Get Key** tag.
@@ -41,7 +41,7 @@ This sample demonstrates the use of Tuya IoT App SDK for iOS to build an IoT app
 
 6. Download the security image, rename it to `t_s.bmp`, and then drag it to the workspace to be at the same level as `Info.plist`.
 
-   **Note**: The package name, AppKey, AppSecret, and security image must be the same as your app on the [Tuya IoT Platform](https://iot.tuya.com). Otherwise, the sample cannot request the API.
+   **Note**: The package name, AppKey, AppSecret, and security image must be the same as your app on the [Tuya IoT Platform](https://iot.tuya.com?_source=github). Otherwise, the sample cannot request the API.
 
 ## References
-For more information, see [App SDK](https://developer.tuya.com/en/docs/app-development).
+For more information, see [App SDK](https://developer.tuya.com/en/docs/app-development?_source=github).
